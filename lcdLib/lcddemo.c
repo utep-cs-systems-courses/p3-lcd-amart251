@@ -16,10 +16,10 @@ main()
 
   clearScreen(COLOR_BLUE);
 
-  drawString5x7(20,20, "https://github.com/u", COLOR_GREEN, COLOR_RED);
-  drawString5x7(20,30, "tep-cs-systems-courses", COLOR_GREEN, COLOR_RED);
-  drawString5x7(20,40, "/p3-lcd-amart251.git", COLOR_GREEN, COLOR_RED);
+  drawString5x7(0,20, "https://github.com/u", COLOR_GREEN, COLOR_RED);
+  drawString5x7(0,30, "tep-cs-systems-courses", COLOR_GREEN, COLOR_RED);
+  drawString5x7(0,40, "/p3-lcd-amart251.git", COLOR_GREEN, COLOR_RED);
 
-  fillRectangle(30,30, 60, 60, COLOR_ORANGE);
+  //fillRectangle(30,30, 60, 60, COLOR_ORANGE);
   
 }
