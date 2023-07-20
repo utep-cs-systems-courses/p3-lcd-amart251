@@ -16,9 +16,9 @@ main()
 
   clearScreen(COLOR_BLUE);
 
-  drawString5x7(20,20, "https://github.com/u", COLOR_GREEN, COLOR_RED);
+  drawString5x7(30,30, "https://github.com/u", COLOR_GREEN, COLOR_RED);
   drawString5x7(20,20, "tep-cs-systems-courses", COLOR_GREEN, COLOR_RED);
-  drawString5x7(20,20, "/p3-lcd-amart251.git", COLOR_GREEN, COLOR_RED);
+  drawString5x7(40,40, "/p3-lcd-amart251.git", COLOR_GREEN, COLOR_RED);
 
   fillRectangle(30,30, 60, 60, COLOR_ORANGE);
   
