@@ -14,7 +14,7 @@ main()
   lcd_init();
   u_char width = screenWidth, height = screenHeight;
 
-  clearScreen(COLOR_BLUE);
+  clearScreen(COLOR_BLACK);
 
   drawString5x7(0, 00, "I put the new Forgis", COLOR_GREEN, COLOR_RED);
   drawString5x7(0, 10, "on the Jeep", COLOR_GREEN, COLOR_RED);
