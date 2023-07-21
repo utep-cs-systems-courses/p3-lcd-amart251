@@ -39,6 +39,22 @@ main()
   drawString5x7(0, 180, "ttin' racks in the", COLOR_GREEN, COLOR_RED);
   drawString5x7(0, 190, "mornin'", COLOR_GREEN, COLOR_RED);*/
 
-  fillRectangle(0,0, 130, 160, COLOR_SEA_GREEN);
+  //fillRectangle(0,0, 130, 160, COLOR_SEA_GREEN);
+
+  int controlCol = 40;
+  int controlRow = 50;
+  int c = 0;
+  int r = 0;
+  for (int j = 0; j < 30; j++){
+    int upper = min(-r, +r);
+    int lower = max(-r, r+);
+    int drawCol = c;
+    for (int drawRow = upper; drawRow <= lower; drawRow++){
+      drawPixel(controlCol + drawCol, controlRow+ drawRow, COLOR_WHITE);
+      drawPixel(controlCol - drawCol, controlRow- drawRow, COLOR_WHITE);
+    }
+    c+=1;
+    r+=1;
+  }
   
 }
