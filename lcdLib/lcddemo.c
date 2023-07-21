@@ -47,7 +47,7 @@ main()
   int r = 0;
   for (int j = 0; j < 30; j++){
     int upper = min(-r, +r);
-    int lower = max(-r, r+);
+    int lower = max(-r, +r);
     int drawCol = c;
     for (int drawRow = upper; drawRow <= lower; drawRow++){
       drawPixel(controlCol + drawCol, controlRow+ drawRow, COLOR_WHITE);
