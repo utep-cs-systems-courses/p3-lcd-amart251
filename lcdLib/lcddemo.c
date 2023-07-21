@@ -39,6 +39,6 @@ main()
   drawString5x7(0, 180, "ttin' racks in the", COLOR_GREEN, COLOR_RED);
   drawString5x7(0, 190, "mornin'", COLOR_GREEN, COLOR_RED);*/
 
-  fillRectangle(100,100, 60, 60, COLOR_BLACK);
+  fillRectangle(80,80, 60, 60, COLOR_SEA_GREEN);
   
 }
