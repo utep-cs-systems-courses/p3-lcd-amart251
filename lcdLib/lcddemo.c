@@ -17,7 +17,7 @@ main()
   clearScreen(COLOR_BLACK);
 
 
-  /*
+  
   drawString5x7(0, 00, "I put the new Forgis", COLOR_GREEN, COLOR_RED);
   drawString5x7(0, 10, "on the Jeep", COLOR_GREEN, COLOR_RED);
   drawString5x7(0, 20, "I trap until the,", COLOR_GREEN, COLOR_RED);
@@ -37,10 +37,11 @@ main()
   drawString5x7(0, 160, "e I'm ballin'", COLOR_GREEN, COLOR_RED);
   drawString5x7(0, 170, "I was wakin' up ge", COLOR_GREEN, COLOR_RED);
   drawString5x7(0, 180, "ttin' racks in the", COLOR_GREEN, COLOR_RED);
-  drawString5x7(0, 190, "mornin'", COLOR_GREEN, COLOR_RED);*/
+  drawString5x7(0, 190, "mornin'", COLOR_GREEN, COLOR_RED);
 
   //fillRectangle(0,0, 130, 160, COLOR_SEA_GREEN);
 
+/*
   int controlCol = 40;
   int controlRow = 50;
   int c = 0;
@@ -56,5 +57,6 @@ main()
     c+=1;
     r+=1;
   }
+  */
   
 }
